@@ -1,5 +1,13 @@
-import Image from "next/image";
+import Nav from "@/section/Nav/Nav";
+import CardGrid from "@/section/CardGrid/CardGrid";
 
-export default function Home() {
-  return <div>Hello Movie</div>;
-}
+const Home = () => {
+  return (
+    <div>
+      <Nav />
+      <CardGrid />
+    </div>
+  );
+};
+
+export default Home;
